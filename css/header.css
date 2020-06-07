@@ -1,0 +1,40 @@
+/* header */
+header {
+    background-color: #333;
+    padding: 0.75rem;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.625rem;
+    transition: all 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff6347;
+}

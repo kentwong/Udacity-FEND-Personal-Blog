@@ -1,0 +1,17 @@
+/* Typography imported from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|IBM+Plex+Sans:200,400&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fredericka the Great", cursive;
+}
+
+p,
+a,
+blockquote {
+    font-family: "IBM Plex Sans", sans-serif;
+}
